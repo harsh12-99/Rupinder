@@ -47,7 +47,7 @@ const Intro = () => {
   return (
     <>
       <div className="top_author_image">
-        <img src={introContent.image} alt="about" />
+        <img src={introContent.image} alt="about" style={{borderRadius:20}}/>
       </div>
       <div className="about_title">
         <h3>{introContent.name}</h3>

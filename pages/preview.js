@@ -53,12 +53,12 @@ const Preview = () => {
           <div className="short_info">
             <img src="/img/logo/dark.png" alt="logo" />
             <h3>
-              Personal Portfolio <strong>React NextJS</strong> Template
+               <strong>Sandha Accounting Services Pvt. Ltd.</strong> 
             </h3>
           </div>
           {/* END SHORT INFO */}
 
-          <div className="tokyo_tm_intro_fixed_price">
+          {/* <div className="tokyo_tm_intro_fixed_price">
             <span className="anim"></span>
             <span className="anim"></span>
             <span className="anim"></span>
@@ -70,7 +70,7 @@ const Preview = () => {
             >
               Buy
             </a>
-          </div>
+          </div> */}
           {/* END FIXED PRICE TAG */}
 
           <div className="container">
@@ -84,8 +84,8 @@ const Preview = () => {
                     onClick={() => handle(mode)}
                   >
                     <Link href="/home">
-                      <div className="desc">
-                        <img src={item.img} alt="demo item" />
+                      <div className="desc" >
+                        <img src={item.img} alt="demo item" style={{borderRadius:20}}/>
                         <h3 className="title">{item.title}</h3>
                       </div>
                     </Link>
