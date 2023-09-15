@@ -11,8 +11,8 @@ const Preview = () => {
     arrow: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 575,
@@ -25,15 +25,13 @@ const Preview = () => {
   };
 
   const demoItems = [
-    {
-      id: 1,
-      img: "/img/intro/light.png",
-      title: "Light Demo",
-    },
+    // {
+    //   id: 1,
+    //   img: "/img/intro/light.png",
+    // },
     {
       id: 2,
       img: "/img/intro/dark.png",
-      title: "Dark Demo",
     },
   ];
 
@@ -51,29 +49,13 @@ const Preview = () => {
       <div className="tokyo_tm_all_wrap">
         <div className="tokyo_tm_intro">
           <div className="short_info">
-            <img src="/img/logo/dark.png" alt="logo" />
+            <img src="/img/logo/dark.png" alt="logo" style={{width:100,height:100}} />
             <h3>
                <strong>Sandha Accounting Services Pvt. Ltd.</strong> 
             </h3>
           </div>
-          {/* END SHORT INFO */}
-
-          {/* <div className="tokyo_tm_intro_fixed_price">
-            <span className="anim"></span>
-            <span className="anim"></span>
-            <span className="anim"></span>
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              className="pricing-info anim"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Buy
-            </a>
-          </div> */}
-          {/* END FIXED PRICE TAG */}
-
-          <div className="container">
+          
+          <div className="container" style={{marginTop:100}}>
             <Slider {...settings}>
               {demoItems.map((item) => {
                 const mode = item.id % 2 === 0 ? "dark" : "light";
@@ -85,8 +67,7 @@ const Preview = () => {
                   >
                     <Link href="/home">
                       <div className="desc" >
-                        <img src={item.img} alt="demo item" style={{borderRadius:20}}/>
-                        <h3 className="title">{item.title}</h3>
+                        <img src={item.img} alt="demo item" style={{borderRadius:20 ,width:400,height:240 ,marginLeft:290}}/>
                       </div>
                     </Link>
                   </div>

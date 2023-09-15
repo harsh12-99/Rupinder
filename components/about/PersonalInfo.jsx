@@ -53,7 +53,7 @@ const PersonalInfo = () => {
         {
           id: 2,
           name: "Study",
-          content: "Univercity of Texas",
+          content: "University of Texas",
         },
         {
           id: 3,

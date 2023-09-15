@@ -4,8 +4,8 @@ import ReactMapGL from "react-map-gl";
 
 const Map = () => {
   const [viewport, setViewport] = useState({
-    latitude: 40.712776,
-    longitude: -74.005974,
+    latitude: 37.8136,
+    longitude: 144.9631,
     zoom: 8,
   });
 
@@ -14,7 +14,7 @@ const Map = () => {
       <div className="map">
         <ReactMapGL
           mapStyle={"mapbox://style/mapbox/dark-v9"}
-          mapboxApiAccessToken="pk.eyJ1IjoiYmF5YXppZGgiLCJhIjoiY2tvemdwc3ByMDg1YzJubzQxcDR0cDR3dyJ9.s1zXEb5OPqgBDcmupj3GBA"
+          mapboxApiAccessToken=""
           {...viewport}
           onViewportChange={(nextViewport) => setViewport(nextViewport)}
         />
