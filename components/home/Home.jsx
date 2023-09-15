@@ -10,7 +10,7 @@ const Home = () => {
       jobTitle: "Accountant",
     },
     {
-      name: "Emma",
+      name: "Mala Kapoor",
       image: "/img/slider/Image_2.jpg",
       jobTitle: "Accountant",
     },

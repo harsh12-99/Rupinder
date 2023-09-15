@@ -12,7 +12,7 @@ module.exports = [
       <>
         <h5>For Individuals:</h5>
         <p>
-          Taxes are a constant in every individual's life, and managing them effectively can make a substantial difference in your financial well-being. Our comprehensive individual taxation services include:
+          Taxes are a constant in every individual&apos;s life, and managing them effectively can make a substantial difference in your financial well-being. Our comprehensive individual taxation services include:
         </p>
         <p>
           Tax Preparation: We simplify the annual tax filing process by accurately preparing your returns, optimizing deductions and credits, and ensuring compliance with tax laws.
@@ -38,7 +38,7 @@ module.exports = [
   Tax Compliance: We ensure your company adheres to tax laws and regulations, from filing annual returns to managing payroll taxes and more.
 </p> 
 <p>
-  Tax Incentive Optimization: Explore available tax incentives and credits to boost your company's financial performance and competitiveness.
+  Tax Incentive Optimization: Explore available tax incentives and credits to boost your company&apos;s financial performance and competitiveness.
 </p>  
 <p>
   Business Expansion: We assist in tax planning when expanding your operations, ensuring your business scales smoothly while maintaining tax efficiency.
@@ -78,10 +78,10 @@ module.exports = [
         
         <h5>Company Setup:</h5>
         <p>
-          Establishing a company is more than just paperwork; it's about creating a business entity that aligns with your vision. Our company setup services encompass:
+          Establishing a company is more than just paperwork; it&apos;s about creating a business entity that aligns with your vision. Our company setup services encompass:
         </p>
         <p>
-          Business Structure Selection: Expert guidance on choosing the most suitable business structure, whether it's a sole proprietorship, partnership, or a company.
+          Business Structure Selection: Expert guidance on choosing the most suitable business structure, whether it&apos;s a sole proprietorship, partnership, or a company.
         </p>
         <p>
           Incorporation Services: Swift and efficient company registration, ensuring compliance with all relevant regulatory bodies
@@ -97,10 +97,10 @@ module.exports = [
         Trusts are versatile vehicles for asset protection, estate planning, and achieving specific financial objectives. Our trust setup services include:
       </p>
       <p>
-        Trustee Selection: Expertise in selecting the right trustee(s) to oversee the trust's operations.
+        Trustee Selection: Expertise in selecting the right trustee(s) to oversee the trust&apos;s operations.
       </p>
       <p>
-        Trust Deed Creation: Crafting a meticulously drafted trust deed that aligns with your trust's objectives and meets all legal requirements.
+        Trust Deed Creation: Crafting a meticulously drafted trust deed that aligns with your trust&apos;s objectives and meets all legal requirements.
       </p>
       <p>
         Asset Transfer: Guidance on transferring assets into the trust with precision and compliance
@@ -142,7 +142,7 @@ module.exports = [
         </p>
       <h5>PAYG withholding calculations</h5>
       <p>
-        Calculating PAYG (Pay As You Go) withholding is a big part of managing payroll responsibly. It means figuring out how much tax to take out of employees' paychecks before giving them the money. Our special PAYG services help businesses do this correctly by handling all the complicated tax rules, making payroll easier, and keeping everything legal.
+        Calculating PAYG (Pay As You Go) withholding is a big part of managing payroll responsibly. It means figuring out how much tax to take out of employees&apos; paychecks before giving them the money. Our special PAYG services help businesses do this correctly by handling all the complicated tax rules, making payroll easier, and keeping everything legal.
       </p>
       <h5>Single Touch Payroll (STP) compliance</h5>
       <p>
@@ -214,10 +214,10 @@ module.exports = [
           Internal Controls: Establishing robust internal controls safeguards your organization against fraud and mismanagement, protecting both your assets and your reputation.
         </p>
         <p>
-          Effective bookkeeping is not just about crunching numbers; it's about providing you with the financial clarity and stability needed to thrive. Let us be your trusted partner in maintaining your financial backbone. Contact us today to discuss your bookkeeping needs and how we can help streamline your financial operations, so you can focus on what you do best—running your business.
+          Effective bookkeeping is not just about crunching numbers; it&apos;s about providing you with the financial clarity and stability needed to thrive. Let us be your trusted partner in maintaining your financial backbone. Contact us today to discuss your bookkeeping needs and how we can help streamline your financial operations, so you can focus on what you do best—running your business.
         </p>
         <p>
-          At Wolf Street Accounting, we care about building strong relationships with our clients. We want to understand your goals and give you advice that helps you succeed financially. Whether you're just starting a business, have a small one, or run a big company, we have the knowledge to guide you through the complicated world of finance. Contact us today, and you'll see how working with our friendly and client-focused accounting firm can make a big difference to your financial journey.
+          At Wolf Street Accounting, we care about building strong relationships with our clients. We want to understand your goals and give you advice that helps you succeed financially. Whether you&apos;re just starting a business, have a small one, or run a big company, we have the knowledge to guide you through the complicated world of finance. Contact us today, and you&apos;ll see how working with our friendly and client-focused accounting firm can make a big difference to your financial journey.
         </p>
 
       </>
@@ -235,7 +235,7 @@ module.exports = [
     descriptions: (
       <>
         <p>
-          Income Statement: This part of financial reporting is like a snapshot of your earnings and expenses over a given period. It tells you how much money you've made (income) and how much you've spent (expenses). The difference between the two is your net income or loss.
+          Income Statement: This part of financial reporting is like a snapshot of your earnings and expenses over a given period. It tells you how much money you&apos;ve made (income) and how much you&apos;ve spent (expenses). The difference between the two is your net income or loss.
         </p>
         <p>
           Balance Sheet: Think of the balance sheet as a snapshot of what you own (assets) and what you owe (liabilities) at a particular moment. Your assets could include things like cash, investments, or property, while liabilities might be debts like loans or credit card balances. The balance sheet shows whether you have more assets than liabilities, which is a good sign.
@@ -244,7 +244,7 @@ module.exports = [
           Cash Flow Statement: This statement is all about tracking how cash flows in and out of your pocket or business. It includes operating cash flow (money from daily activities), investing cash flow (money spent on assets), and financing cash flow (money from loans or investments).
         </p>
         <p>
-          Financial reporting helps you assess your financial stability, make informed decisions, and communicate your financial status to others, such as investors or creditors. It's like taking a snapshot of your financial journey and understanding where you stand.
+          Financial reporting helps you assess your financial stability, make informed decisions, and communicate your financial status to others, such as investors or creditors. It&apos;s like taking a snapshot of your financial journey and understanding where you stand.
         </p>
       </>
     ),
@@ -261,13 +261,13 @@ module.exports = [
     descriptions: (
       <>
         <p>
-          Setting Goals: Start by identifying your financial goals, whether it's saving for a vacation, paying off debt, or building an emergency fund. These are like the destinations you want to reach.
+          Setting Goals: Start by identifying your financial goals, whether it&apos;s saving for a vacation, paying off debt, or building an emergency fund. These are like the destinations you want to reach.
         </p>
         <p>
           Income and Expenses: Calculate your monthly income and list all your expenses. Expenses can be divided into fixed (like rent or mortgage) and variable (like groceries or entertainment).
         </p>
         <p>
-          Creating a Budget: Based on your goals and income, create a budget that outlines how much you'll allocate to each expense category. This is like planning how much to spend in each area of your life.
+          Creating a Budget: Based on your goals and income, create a budget that outlines how much you&apos;ll allocate to each expense category. This is like planning how much to spend in each area of your life.
         </p>
         <p>
           Tracking Expenses: Keep a close eye on your spending throughout the month. You can use apps or spreadsheets to help you. This is like checking your progress on a journey and making adjustments as needed. 
@@ -276,7 +276,7 @@ module.exports = [
           Reviewing and Adjusting: At the end of the month, compare your actual spending to your budget. If you overspent in one category, figure out how to compensate in the next month. If you have extra funds, consider saving or investing them.
         </p>
         <p>
-          Budgeting helps you take control of your finances, prioritize your goals, and ensure that you're using your money wisely. It's like having a map for your financial journey, helping you reach your desired destinations efficiently.
+          Budgeting helps you take control of your finances, prioritize your goals, and ensure that you&apos;re using your money wisely. It&apos;s like having a map for your financial journey, helping you reach your desired destinations efficiently.
         </p>
         <p>
           In summary, financial reporting gives you a snapshot of your financial past and present, while budgeting helps you plan for your financial future. Together, they are powerful tools for managing your money and achieving your financial goals
