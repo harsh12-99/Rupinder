@@ -25,14 +25,14 @@ const Preview = () => {
   };
 
   const demoItems = [
-    // {
-    //   id: 1,
-    //   img: "/img/intro/light.png",
-    // },
     {
-      id: 2,
-      img: "/img/intro/dark.png",
+      id: 1,
+      img: "/img/intro/light.png",
     },
+    // {
+    //   id: 2,
+    //   img: "/img/intro/dark.png",
+    // },
   ];
 
   const { theme, setTheme } = useTheme();

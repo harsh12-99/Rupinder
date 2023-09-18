@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import ShareSocial from "../social-share/ShareSocial";
+import Image from "next/image";
 
 const Home = () => {
   const profiles = [
@@ -32,6 +33,15 @@ const Home = () => {
 
   return (
     <>
+      <div>
+        <Image
+          width={15}
+          height={15}
+          className="svg"
+          src="/img/svg/rightArrow.svg"
+          alt="homerun"
+        />
+      </div>
       <div className="tokyo_tm_home">
         <div className="home_content">
           <div className="avatar">
@@ -45,11 +55,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">{currentProfile.name}</h3>
             <h4 className="typer">
-              <Typed
-                strings={[currentProfile.jobTitle]}
-                loop
-                typeSpeed={100}
-              />
+              <Typed strings={[currentProfile.jobTitle]} loop typeSpeed={100} />
             </h4>
 
             <p className="job">Professional Accountant Based In Melbourne</p>
@@ -62,4 +68,3 @@ const Home = () => {
   );
 };
 export default Home;
-

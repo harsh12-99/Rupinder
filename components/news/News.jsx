@@ -25,7 +25,9 @@ const News = () => {
       <ul>
         {newsData.map((item) => (
           <li key={item.id}>
-            <div className="list_inner" onClick={() => handleModle(item?.id)}>
+            <div className="list_inner"
+            //  onClick={() => handleModle(item?.id)}
+             >
               <div className="image">
                 <div
                   className="main "
@@ -45,11 +47,11 @@ const News = () => {
                 {/* END EXTRA */}
 
                 <h3 className="title">{item.title}</h3>
-                <div className="tokyo_tm_read_more">
+                {/* <div className="tokyo_tm_read_more">
                   <div className="read-more">
                     <span>Read More</span>
                   </div>
-                </div>
+                </div> */}
                 {/* END READ MORE BUTTON */}
               </div>
               {/* END DETAILS */}

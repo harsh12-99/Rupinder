@@ -17,23 +17,23 @@ module.exports = [
     menuName: "Service",
     routePath: "/service",
   },
-  {
-    id: 4,
-    icon: "/img/svg/briefcase.svg",
-    menuName: "Portfolio",
-    // routePath: "/portfolio",
-    routePath: "",
-  },
+  // {
+  //   id: 4,
+  //   icon: "/img/svg/briefcase.svg",
+  //   menuName: "Portfolio",
+  //   // routePath: "/portfolio",
+  //   routePath: "",
+  // },
   {
     id: 5,
     icon: "/img/svg/paper.svg",
-    menuName: "Why Choose US",
+    menuName: "Why Choose Us",
     routePath: "/news",
   },
   {
     id: 6,
     icon: "/img/svg/mail.svg",
-    menuName: "Contact",
+    menuName: "Contact Us",
     routePath: "/contact",
   },
 ];
