@@ -48,7 +48,7 @@ const Home = () => {
           width={30}
           height={30}
           className="home-carousel-left image-filter"
-          src="/img/svg/rightArrow.svg"
+          src="/img/svg/rightarrow.svg"
           alt="homerun"
           onClick={goToPreviousProfile}
         />
