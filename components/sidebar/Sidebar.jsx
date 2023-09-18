@@ -49,7 +49,7 @@ const Sidebar = () => {
       <div className={click ? "leftpart active" : "leftpart"}>
         <div className="leftpart_inner">
           <div className="logo">
-            <Link className="navbar-brand" href="/">
+            <Link className="navbar-brand" href="/home">
               <Image
                 width={80}
                 height={80}
