@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.home-parent {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dark .image-filter {
+    filter: invert(1)
+}
+
+.home-carousel-left {
+    transform: rotate(180deg);
+}
