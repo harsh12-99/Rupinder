@@ -1,11 +1,11 @@
 import React from "react";
 import Modal from "react-modal";
-import Testimonial from "./Testimonial";
+// import Testimonial from "./Testimonial";
 import Intro from "./Intro";
-import KnowledgeInterest from "./KnowledgeInterest";
-import PersonalInfo from "./PersonalInfo";
-import Resume from "./Resume";
-import Skills from "./Skills";
+// import KnowledgeInterest from "./KnowledgeInterest";
+// import PersonalInfo from "./PersonalInfo";
+// import Resume from "./Resume";
+// import Skills from "./Skills";
 
 Modal.setAppElement("#__next");
 
@@ -25,18 +25,18 @@ const AboutMain = () => {
           {/* End title */}
 
           <Intro />
-          <div className="tokyo_tm_short_info">
+          {/* <div className="tokyo_tm_short_info">
             <PersonalInfo />
-          </div>
+          </div> */}
           {/* End personal info */}
 
           <div className="tokyo_tm_button" data-position="left">
             {/* <a href="/img/cv.pdf" download>
               <span>Download CV</span>
             </a> */}
-            <a href="" >
+            {/* <a href="" >
               <span>Download CV</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

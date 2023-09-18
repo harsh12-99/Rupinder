@@ -31,15 +31,26 @@ const Home = () => {
 
   const currentProfile = profiles[currentProfileIndex];
 
+  const goToNextProfile = () => {
+    setCurrentProfileIndex((prevIndex) => (prevIndex + 1) % profiles.length);
+  };
+
+  const goToPreviousProfile = () => {
+    setCurrentProfileIndex((prevIndex) =>
+      prevIndex === 0 ? profiles.length - 1 : prevIndex - 1
+    );
+  };
+
   return (
-    <>
+    <div className="home-parent">
       <div>
         <Image
-          width={15}
-          height={15}
-          className="svg"
+          width={30}
+          height={30}
+          className="home-carousel-left image-filter"
           src="/img/svg/rightArrow.svg"
           alt="homerun"
+          onClick={goToPreviousProfile}
         />
       </div>
       <div className="tokyo_tm_home">
@@ -64,7 +75,17 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+      <div>
+        <Image
+          width={30}
+          height={30}
+          className="image-filter"
+          src="/img/svg/rightArrow.svg"
+          alt="homerun"
+          onClick={goToNextProfile}
+        />
+      </div>
+    </div>
   );
 };
 export default Home;
