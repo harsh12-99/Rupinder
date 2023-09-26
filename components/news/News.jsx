@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Modal from "react-modal";
 import newsData from "../../data/newsData";
-import ShareSocial from "../social-share/ShareSocial";
+import Social from "../Social";
 
 Modal.setAppElement("#__next");
 
@@ -38,20 +38,8 @@ const News = () => {
               </div>
               {/* END IMAGE */}
               <div className="details">
-                {/* <div className="extra">
-                  <p className="date">
-                    By <a href="#">{item.poster}</a>
-                    <span>{item.date}</span>
-                  </p>
-                </div> */}
-                {/* END EXTRA */}
-
                 <h3 className="title">{item.title}</h3>
-                {/* <div className="tokyo_tm_read_more">
-                  <div className="read-more">
-                    <span>Read More</span>
-                  </div>
-                </div> */}
+                
                 {/* END READ MORE BUTTON */}
               </div>
               {/* END DETAILS */}
@@ -91,7 +79,7 @@ const News = () => {
                   }}
                 ></div>
               </div>
-              {/* END IMAGE */}
+              
               <div className="details">
                 <div className="extra">
                   <p className="date">
@@ -101,24 +89,21 @@ const News = () => {
                 </div>
                 <h3 className="title">{singleData?.title}</h3>
               </div>
-              {/* END DETAILS */}
+              
               <div className="main_content ">
                 {singleData?.descriptions}
-                {/* END DESCRIPTION */}
+               
                 <div className="news_share">
-                  <span>Share:</span>
-                  <ShareSocial />
-                  {/* END SOCIAL SHARE */}
+                  <span>Go To</span>
+                  <Social />
                 </div>
-                {/* END NEWS SHARE */}
               </div>
             </div>
           </div>
-          {/* END BOX INNER */}
         </div>
-        {/* END MODALBOX NEWS */}
+        
       </Modal>
-      {/* END MODAL */}
+     
     </>
   );
 };
