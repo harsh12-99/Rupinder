@@ -4,7 +4,7 @@ module.exports = [
   {
     id: 1,
     title: "Our team of seasoned tax professionals combines in-depth knowledge of tax laws with a commitment to personalized service. We understand that your financial situation is unique, and our tailored solutions reflect this. When you engage in our services, you gain peace of mind, knowing that your tax matters are in capable hands, allowing you to focus on your financial goals and priorities",
-    img: "/img/news/1.jpg",
+    img: "/img/news/whyUs.jpg",
     poster: "",
     date: "",
     descriptions: (

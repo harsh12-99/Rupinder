@@ -15,7 +15,7 @@ const index = () => {
             <div className="title_flex">
               <div className="left">
                 <span>Services</span>
-                <h3>What I Do</h3>
+                <h3>What We Do</h3>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ const index = () => {
       <div className="tokyo_tm_facts">
         <div className="container">
           <div className="tokyo_section_title">
-            <h3>Fun Facts</h3>
+            <h3>Client Serve</h3>
           </div>
           <div className="list">
             <ul>

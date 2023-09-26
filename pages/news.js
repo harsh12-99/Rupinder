@@ -21,7 +21,6 @@ const index = () => {
                   <div className="tokyo_tm_title">
                     <div className="title_flex">
                       <div className="left">
-                        <span>Why Choose US</span>
                         <h3>Why Choose US</h3>
                       </div>
                     </div>

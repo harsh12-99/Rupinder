@@ -4,8 +4,8 @@ module.exports = [
     no: "01",
     title: "Taxation Services",
     text: `Starting to deal with taxes can be confusing, but don't worry. Our experienced team of tax experts is here to help. They'll not only guide you through the complicated tax rules but also make sure you follow all the tax laws correctly while finding the best tax plan for you. We offer a wide range of services, including:`,
-    largeImg: "/img/news/1.jpg",
-    largeTitle: "",
+    largeImg: "/img/news/tax_service.jpg",
+    largeTitle: "Taxation Services",
     poster: "",
     date: "",
     descriptions: (
@@ -67,16 +67,15 @@ module.exports = [
     id: 2,
     no: "02",
     title: "Company Trust and SMSF Setup",
-    text: `Starting a company, trust, or a self-managed superannuation fund (SMSF) is an important part of securing your financial future. We provide a wide range of services to help you set up these financial structures carefully and skillfully. Our goal is to make sure they align perfectly with your specific financial goals.
-    `,
-    largeImg: "/img/news/2.jpg",
-    largeTitle: "",
+    text: `Starting a company, trust, or a self-managed superannuation fund (SMSF) is an important part of securing your financial future. We provide a wide range of services to help you set up these financial structures carefully and skillfully. Our goal is to make sure they align perfectly with your specific financial goals.`,
+    largeImg: "/img/news/company_trust.jpg",
+    largeTitle: "Company Trust and SMSF Setup",
     poster: "",
     date: "",
     descriptions: (
       <>
         
-        <h5>Company Setup:</h5>
+        <h5>Company Setup</h5>
         <p>
           Establishing a company is more than just paperwork; it&apos;s about creating a business entity that aligns with your vision. Our company setup services encompass:
         </p>
@@ -124,10 +123,10 @@ module.exports = [
   {
     id: 3,
     no: "03",
-    title: "Payroll Services:",
+    title: "Payroll Services",
     text: `Effective payroll management is pivotal, serving as the linchpin of employee satisfaction and regulatory adherence. Our comprehensive solutions include:`,
-    largeImg: "/img/news/3.jpg",
-    largeTitle: "",
+    largeImg: "/img/news/payroll.jpg",
+    largeTitle: "Payroll Services",
     poster: "",
     date: "",
     descriptions: (
@@ -156,8 +155,8 @@ module.exports = [
     no: "04",
     title: "Efficient Bookkeeping Services: Your Financial Backbone",
     text: `Bookkeeping is like the foundation of a strong financial plan for any business, no matter its size. It's all about keeping track of and organizing the money stuff, like income and expenses. This helps businesses make smart decisions, meet their financial responsibilities, and reach their money goals.`,
-    largeImg: "/img/news/4.jpg",
-    largeTitle: "",
+    largeImg: "/img/news/Fin_book_services.jpg",
+    largeTitle: "Efficient Bookkeeping Services: Your Financial Backbone",
     poster: "",
     date: "",
     descriptions: (
@@ -192,8 +191,8 @@ module.exports = [
     no: "05",
     title: "Specialized Accounting Services for Not-for-Profit Organizations: Nurturing Your Mission",
     text: `Managing money for non-profit groups is special and super important. It's not just about numbers; it's about using money wisely to do good things for your community or cause. Our special money services for non-profit groups are here to help you stay financially healthy and make sure you're clear, following the rules, and accountable for what you do with your money.`,
-    largeImg: "/img/news/1.jpg",
-    largeTitle: "Our Comprehensive Services:",
+    largeImg: "/img/news/Specialize_Account.jpg",
+    largeTitle: "Specialized Accounting Services for Not-for-Profit Organizations: Nurturing Your Mission",
     poster: "",
     date: "",
     descriptions: (
@@ -226,10 +225,10 @@ module.exports = [
   {
     id: 6,
     no: "06",
-    title: "Financial Reporting:",
+    title: "Financial Reporting",
     text: `Financial reporting is like a financial diary that helps individuals, businesses, and organizations keep track of their money matters. It's a structured way of documenting and summarizing financial activities over a specific period, usually monthly, quarterly, or annually. The primary goal is to provide a clear and accurate picture of a person's or entity's financial health. Here's how it works:`,
-    largeImg: "/img/news/2.jpg",
-    largeTitle: "",
+    largeImg: "/img/news/financial_report.jpg",
+    largeTitle: "Financial Reporting",
     poster: "",
     date: "",
     descriptions: (
@@ -252,10 +251,10 @@ module.exports = [
   {
     id: 7,
     no: "07",
-    title: "Budgeting:",
+    title: "Budgeting",
     text: `Budgeting is like having a game plan for your finances. It's a proactive way to manage your money by setting financial goals and deciding how you'll allocate your income to meet those goals. Here's how budgeting works:`,
-    largeImg: "/img/news/2.jpg",
-    largeTitle: "",
+    largeImg: "/img/news/budget.jpg",
+    largeTitle: "Budgeting",
     poster: "",
     date: "",
     descriptions: (

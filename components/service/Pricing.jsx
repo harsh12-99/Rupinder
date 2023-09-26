@@ -58,13 +58,13 @@ const Pricing = () => {
             <ul className="item">
               {item.features.map((feature, i) => (
                 <li className="active" key={i}>
-                  <p>{feature}</p>
+                  {/* <p>{feature}</p> */}
                 </li>
               ))}
             </ul>
             <div className="tokyo_tm_button" data-position="left">
-              <a href="#">
-                <span>Purchase</span>
+              <a href="contact">
+                <span>Contact Us</span>
               </a>
             </div>
             {item.isPopular ? (
