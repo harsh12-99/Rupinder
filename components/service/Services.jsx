@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import servicesData from "../../data/servicesData";
 import ShareSocial from "../social-share/ShareSocial";
+import Social from "../Social";
 
 Modal.setAppElement("#__next");
 
@@ -75,8 +76,8 @@ const Services = () => {
                 <div className="descriptions">{singleData?.descriptions}</div>
                 {/* END DESCRIPTION */}
                 <div className="news_share">
-                  <span>Share:</span>
-                  <ShareSocial />
+                  <span>Go To</span>
+                  <Social />
                   {/* END SOCIAL SHARE */}
                 </div>
                 {/* END NEWS SHARE */}
