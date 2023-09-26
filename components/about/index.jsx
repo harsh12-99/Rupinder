@@ -17,8 +17,8 @@ const AboutMain = () => {
           <div className="tokyo_tm_title">
             <div className="title_flex">
               <div className="left">
-                <span>About</span>
-                <h3>About Me</h3>
+                {/* <span>About</span> */}
+                <h3>About Us</h3>
               </div>
             </div>
           </div>

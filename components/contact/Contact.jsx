@@ -50,7 +50,7 @@ const Contact = () => {
           <div className="tokyo_tm_title">
             <div className="title_flex">
               <div className="left">
-                <span>Contact</span>
+                <span>Contact Us</span>
                 <h3>Get in Touch</h3>
               </div>
             </div>
@@ -100,18 +100,24 @@ const Contact = () => {
                 </ul>
               </div>
               <div className="tokyo_tm_button">
-                <button type="submit" className="ib-button">
+                <button type="submit" className="ib-button" style={{marginRight:20}}>
                   Send Message
                 </button>
+                <a href="https://www.google.com/search?q=melbourne+australia+map&sca_esv=566241734&sxsrf=AM9HkKkHhkaSZR4KyZcPFmraMP9jMZMMmA%3A1695034328305&source=hp&ei=2CsIZeCYD_Dq2roPrYmnuA4&iflsig=AO6bgOgAAAAAZQg56C06fztQLDco9v9u6UG6Xm8sTNd5&oq=Me&gs_lp=Egdnd3Mtd2l6IgJNZSoCCAAyBxAjGIoFGCcyBxAjGIoFGCcyDRAuGIoFGMcBGK8BGCcyDhAAGIoFGLEDGIMBGJECMg4QABiKBRixAxiDARiRAjILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCxAuGIoFGLEDGIMBSMQiUOsMWPoOcAF4AJABAJgB6AKgAbcFqgEDMy0yuAEByAEA-AEBqAIKwgIHECMY6gIYJ8ICBBAjGCfCAggQABiKBRiRAsICCxAuGIAEGLEDGIMBwgILEAAYigUYsQMYgwE&sclient=gws-wiz" class="template-component-google-map-button">
+								  <span>Go To Map</span>
+								</a>
               </div>
+             
               {/* END SUBMIT BUTTON */}
             </form>
             {/* END FORM */}
           </div>
           {/* END FIELDS */}
         </div>
+        
       </div>
       {/* END COTACT */}
+      
     </>
   );
 };

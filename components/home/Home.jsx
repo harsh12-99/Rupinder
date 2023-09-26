@@ -8,7 +8,7 @@ const Home = () => {
     {
       name: "Rupinder Singh",
       image: "/img/slider/Image_1.jpg",
-      jobTitle: "Accountant",
+      jobTitle: "Founder",
     },
     {
       name: "Mala Kapoor",
@@ -69,7 +69,8 @@ const Home = () => {
               <Typed strings={[currentProfile.jobTitle]} loop typeSpeed={100} />
             </h4>
 
-            <p className="job">Professional Accountant Based In Melbourne</p>
+            <p className="job">Professional Accountant</p>
+            <h5 className="job">Trust Knowledge and Better Services</h5>
             <ShareSocial />
             {/* <Social /> */}
           </div>
