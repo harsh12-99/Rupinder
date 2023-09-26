@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import ShareSocial from "../social-share/ShareSocial";
+import Social from "../Social";
 import Image from "next/image";
 
 const Home = () => {
@@ -71,8 +72,8 @@ const Home = () => {
 
             <p className="job">Professional Accountant</p>
             <h5 className="job">Trust Knowledge and Better Services</h5>
-            <ShareSocial />
-            {/* <Social /> */}
+            {/* <ShareSocial /> */}
+            <Social />
           </div>
         </div>
       </div>
