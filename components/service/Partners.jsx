@@ -9,8 +9,8 @@ const Partners = () => {
         <li key={i}>
           <div className="list_inner">
             <Image
-              width={280}
-              height={120}
+              width={180}
+              height={60}
               src={`/img/partners/dark/${img}.png`}
               alt="partners brand"
             />
