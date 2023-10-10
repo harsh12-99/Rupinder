@@ -6,6 +6,7 @@ import Intro from "./Intro";
 import PersonalInfo from "./PersonalInfo";
 // import Resume from "./Resume";
 import Skills from "./Skills";
+import Certificate from "../service/Certificate";
 
 Modal.setAppElement("#__next");
 
@@ -22,12 +23,21 @@ const AboutMain = () => {
               </div>
             </div>
           </div>
-          {/* End title */}
 
           <Intro />
-          {/* <div className="tokyo_tm_short_info">
-            <PersonalInfo />
-          </div> */}
+          
+      <div className="tokyo_tm_partners">
+        {/* <div className="container"> */}
+          <div className="tokyo_section_title">
+            <h3>Certificate</h3>
+          </div>
+          <div className="">
+            <ul>
+              <Certificate/>
+            </ul>
+          </div>
+        {/* </div> */}
+      </div>
           {/* End personal info */}
 
           <div className="tokyo_tm_button" data-position="left">

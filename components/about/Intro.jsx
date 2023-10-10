@@ -84,6 +84,7 @@ const Intro = () => {
             <span>{item.designation}</span>
           </div>
           <div className="about_text">{item.text}</div>
+
         </div>
       ))}
     </>
