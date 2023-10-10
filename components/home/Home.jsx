@@ -74,7 +74,6 @@ const Home = () => {
             <p className="job">Professional Accountant</p>
             <h5 className="job">Trust, Knowledge and Better Services</h5>
             <Social />
-            <Certificate/>
           </div>
           
         </div>
