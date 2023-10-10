@@ -3,9 +3,9 @@ import Modal from "react-modal";
 // import Testimonial from "./Testimonial";
 import Intro from "./Intro";
 // import KnowledgeInterest from "./KnowledgeInterest";
-// import PersonalInfo from "./PersonalInfo";
+import PersonalInfo from "./PersonalInfo";
 // import Resume from "./Resume";
-// import Skills from "./Skills";
+import Skills from "./Skills";
 
 Modal.setAppElement("#__next");
 

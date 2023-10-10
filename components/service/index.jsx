@@ -3,6 +3,7 @@ import FunFact from "./FunFact";
 import Partners from "./Partners";
 import Pricing from "./Pricing";
 import Services from "./Services";
+import Certificate from "./Certificate";
 
 const index = () => {
   return (
@@ -57,9 +58,21 @@ const index = () => {
           </div>
         </div>
       </div>
+      <div className="tokyo_tm_partners">
+        <div className="container">
+          <div className="tokyo_section_title">
+            <h3>Certificate</h3>
+          </div>
+          <div className="">
+            <ul>
+              <Certificate/>
+            </ul>
+          </div>
+        </div>
+      </div>
       {/* End funfacts */}
 
-      <div className="tokyo_tm_pricing">
+      {/* <div className="tokyo_tm_pricing">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Pricing</h3>
@@ -70,7 +83,7 @@ const index = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End pricing */}
 
       {/* /SERVICE */}

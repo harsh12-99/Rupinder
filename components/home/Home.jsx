@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import Social from "../Social";
 import Image from "next/image";
+import Certificate from "../service/Certificate";
 
 const Home = () => {
   const profiles = [
@@ -42,6 +43,7 @@ const Home = () => {
   };
 
   return (
+    <>
     <div className="home-parent">
       <div>
         <Image
@@ -72,7 +74,9 @@ const Home = () => {
             <p className="job">Professional Accountant</p>
             <h5 className="job">Trust, Knowledge and Better Services</h5>
             <Social />
+            <Certificate/>
           </div>
+          
         </div>
       </div>
       <div>
@@ -84,8 +88,9 @@ const Home = () => {
           alt="homerun"
           onClick={goToNextProfile}
         />
-      </div>
+      </div>  
     </div>
+    </>
   );
 };
 export default Home;
