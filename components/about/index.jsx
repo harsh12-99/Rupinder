@@ -33,7 +33,9 @@ const AboutMain = () => {
           </div>
           <div className="">
             <ul>
+              
               <Certificate/>
+
             </ul>
           </div>
         {/* </div> */}
