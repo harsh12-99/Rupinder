@@ -64,10 +64,10 @@ const Services = () => {
               {/* END IMAGE */}
               <div className="details">
                 <div className="extra">
-                  <p className="date">
+                  {/* <p className="date">
                     <a href="#">{singleData?.poster}</a>
                     <span>{singleData?.date}</span>
-                  </p>
+                  </p> */}
                 </div>
                 <h3 className="title">{singleData?.largeTitle}</h3>
               </div>
