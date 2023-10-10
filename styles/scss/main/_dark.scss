@@ -117,7 +117,7 @@
   color: #fff;
 }
 .dark .tokyo_tm_home .social li a {
-  filter: invert(1);
+  filter: brightness(1.0);
   &:hover {
     filter: invert(0.8);
   }
