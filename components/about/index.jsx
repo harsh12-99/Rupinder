@@ -29,7 +29,7 @@ const AboutMain = () => {
       <div className="tokyo_tm_partners">
         {/* <div className="container"> */}
           <div className="tokyo_section_title">
-            <h3>Certificate</h3>
+            <h3>Certification</h3>
           </div>
           <div className="">
             <ul>
