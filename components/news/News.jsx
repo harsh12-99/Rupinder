@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React, { useState } from "react";
 import Modal from "react-modal";
 import newsData from "../../data/newsData";
@@ -60,7 +59,7 @@ const News = () => {
       >
         <div className="tokyo_tm_modalbox_news">
           <button className="close-modal" onClick={() => setIsOpen(false)}>
-            <Image
+            <img
               width={45}
               height={45}
               src="/img/svg/cancel.svg"

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const KnowledgeInterest = () => {
@@ -41,7 +40,7 @@ const KnowledgeInterest = () => {
               {item.content.map((val, i) => (
                 <li key={i}>
                   <span>
-                    <Image
+                    <img
                       width={10}
                       height={10}
                       className="svg"

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const Certificate = ()=> {
@@ -8,7 +7,7 @@ const Certificate = ()=> {
         <div style={{display:"flex", gap:40, justifyContent: "center", alignItems: "center"}}>
         {cerImg.map((img, i) => (
         <div key={i} style={{ borderRadius: 10,}}>
-          <Image
+          <img
             width={240}
             height={160}
             src={`/img/certificate/${img}.jpg`}

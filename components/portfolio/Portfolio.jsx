@@ -5,7 +5,6 @@ import "photoswipe/dist/photoswipe.css";
 import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import dynamic from "next/dynamic";
-import Image from "next/image";
 import ModalOne from "./modal/ModalOne";
 import ModalTwo from "./modal/ModalTwo";
 
@@ -60,7 +59,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/5.jpg"
@@ -89,7 +88,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/2.jpg"
@@ -125,7 +124,7 @@ const Portfolio = () => {
                         height={550}
                       >
                         {({ ref, open }) => (
-                          <Image
+                          <img
                             width={300}
                             height={300}
                             srl_gallery_image="true"
@@ -166,7 +165,7 @@ const Portfolio = () => {
                         height={550}
                       >
                         {({ ref, open }) => (
-                          <Image
+                          <img
                             width={300}
                             height={300}
                             srl_gallery_image="true"
@@ -200,7 +199,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/6.jpg"
@@ -230,7 +229,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/7.jpg"
@@ -270,7 +269,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/5.jpg"
@@ -298,7 +297,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/2.jpg"
@@ -345,7 +344,7 @@ const Portfolio = () => {
                         height={550}
                       >
                         {({ ref, open }) => (
-                          <Image
+                          <img
                             width={300}
                             height={300}
                             srl_gallery_image="true"
@@ -385,7 +384,7 @@ const Portfolio = () => {
                         height={550}
                       >
                         {({ ref, open }) => (
-                          <Image
+                          <img
                             width={300}
                             height={300}
                             srl_gallery_image="true"
@@ -430,7 +429,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/6.jpg"
@@ -459,7 +458,7 @@ const Portfolio = () => {
                 <li>
                   <div className="inner">
                     <div className="entry tokyo_tm_portfolio_animation_wrap">
-                      <Image
+                      <img
                         width={300}
                         height={300}
                         src="/img/portfolio/7.jpg"

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import sidebarData from "../../data/sidebarData";
 import CopyRight from "../CopyRight";
@@ -17,7 +16,7 @@ const Sidebar = () => {
         <div className="header-inner">
           <div className="logo">
             <Link className="navbar-brand" href="/">
-              <Image
+              <img
                 width={80}
                 height={80}
                 src="/img/logo/img_logo.png"
@@ -50,7 +49,7 @@ const Sidebar = () => {
         <div className="leftpart_inner">
           <div className="logo">
             <Link className="navbar-brand" href="/home">
-              <Image
+              <img
                 width={80}
                 height={80}
                 src="/img/logo/img_logo.png"
@@ -72,7 +71,7 @@ const Sidebar = () => {
                     }`}
                     href={item.routePath}
                   >
-                    <Image
+                    <img
                       width={15}
                       height={15}
                       className="svg"
