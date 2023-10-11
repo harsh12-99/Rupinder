@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 const Partners = () => {
@@ -8,7 +7,7 @@ const Partners = () => {
       {partnerImg.map((img, i) => (
         <li key={i}>
           <div className="list_inner">
-            <Image
+            <img
               width={180}
               height={60}
               src={`/img/partners/dark/${img}.png`}

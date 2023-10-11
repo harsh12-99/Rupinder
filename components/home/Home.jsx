@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import Social from "../Social";
-import Image from "next/image";
-import Certificate from "../service/Certificate";
 
 const Home = () => {
   const profiles = [
@@ -46,7 +44,7 @@ const Home = () => {
     <>
     <div className="home-parent">
       <div>
-        <Image
+        <img
           width={30}
           height={30}
           className="home-carousel-left image-filter"
@@ -79,7 +77,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <Image
+        <img
           width={30}
           height={30}
           className="image-filter"
