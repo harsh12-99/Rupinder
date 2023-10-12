@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import PersonalInfo from "../about/PersonalInfo";
 import Map from "../Map";
 
 const Contact = () => {
@@ -11,10 +12,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_key",
+        "template_key",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "public key"
       )
       .then(
         (result) => {
@@ -51,7 +52,7 @@ const Contact = () => {
             <div className="title_flex">
               <div className="left">
                 <span>Contact Us</span>
-                <h3>Get in Touch</h3>
+                 <h3>Get in Touch</h3>
               </div>
             </div>
           </div>
@@ -103,7 +104,7 @@ const Contact = () => {
                 <button type="submit" className="ib-button" style={{marginRight:20}}>
                   Send Message
                 </button>
-                <a href="https://www.google.com/search?q=melbourne+australia+map&sca_esv=566241734&sxsrf=AM9HkKkHhkaSZR4KyZcPFmraMP9jMZMMmA%3A1695034328305&source=hp&ei=2CsIZeCYD_Dq2roPrYmnuA4&iflsig=AO6bgOgAAAAAZQg56C06fztQLDco9v9u6UG6Xm8sTNd5&oq=Me&gs_lp=Egdnd3Mtd2l6IgJNZSoCCAAyBxAjGIoFGCcyBxAjGIoFGCcyDRAuGIoFGMcBGK8BGCcyDhAAGIoFGLEDGIMBGJECMg4QABiKBRixAxiDARiRAjILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCxAuGIoFGLEDGIMBSMQiUOsMWPoOcAF4AJABAJgB6AKgAbcFqgEDMy0yuAEByAEA-AEBqAIKwgIHECMY6gIYJ8ICBBAjGCfCAggQABiKBRiRAsICCxAuGIAEGLEDGIMBwgILEAAYigUYsQMYgwE&sclient=gws-wiz" class="template-component-google-map-button">
+                <a href="https://www.google.com/search?q=L2+191+193%2C+Liverpool+Street%2C+Hobart+TAS+7000+Australia&sca_esv=572820686&rlz=1C1GCEB_enIN1023IN1023&sxsrf=AM9HkKkrTIEJ_sPvHBA_FDhvfr9-YF2PFQ%3A1697103203340&ei=Y70nZYiyFKPd2roP58erkAk&ved=0ahUKEwjI79OMmvCBAxWjrlYBHefjCpIQ4dUDCBA&uact=5&oq=L2+191+193%2C+Liverpool+Street%2C+Hobart+TAS+7000+Australia&gs_lp=Egxnd3Mtd2l6LXNlcnAiN0wyIDE5MSAxOTMsIExpdmVycG9vbCBTdHJlZXQsIEhvYmFydCBUQVMgNzAwMCBBdXN0cmFsaWEyBBAjGCdI3RRQtgZYhQxwAXgAkAEAmAHpAaABugmqAQUwLjYuMbgBA8gBAPgBAcICChAjGK4CGLADGCfiAwQYASBBiAYBkAYB&sclient=gws-wiz-serp" class="template-component-google-map-button">
 								  <span>Go To Map</span>
 								</a>
               </div>
@@ -117,6 +118,9 @@ const Contact = () => {
         
       </div>
       {/* END COTACT */}
+      <div className="tokyo_tm_short_info" style={{marginLeft:50}}>
+        <PersonalInfo />
+      </div>
       
     </>
   );

@@ -1,8 +1,8 @@
 import React from "react";
 import Modal from "react-modal";
-// import Testimonial from "./Testimonial";
+import Testimonial from "./Testimonial";
 import Intro from "./Intro";
-// import KnowledgeInterest from "./KnowledgeInterest";
+import KnowledgeInterest from "./KnowledgeInterest";
 import PersonalInfo from "./PersonalInfo";
 // import Resume from "./Resume";
 import Skills from "./Skills";
@@ -27,18 +27,32 @@ const AboutMain = () => {
           <Intro />
           
       <div className="tokyo_tm_partners">
-        {/* <div className="container"> */}
+        <div className="container">
           <div className="tokyo_section_title">
           </div>
           <div className="">
             <ul>
               
               <Certificate/>
-
+              
             </ul>
           </div>
-        {/* </div> */}
+        </div>
       </div>
+
+      {/* <div className="tokyo_tm_partners">
+        <div className="container">
+          <div className="tokyo_section_title">
+          </div>
+          <div className="">
+            <ul>
+              
+              <PersonalInfo/>
+              
+            </ul>
+          </div>
+        </div>
+      </div> */}
           {/* End personal info */}
 
           <div className="tokyo_tm_button" data-position="left">

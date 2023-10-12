@@ -6,69 +6,40 @@ const PersonalInfo = () => {
       id: 1,
       colClass: "left",
       info: [
+        
         {
           id: 1,
-          name: "Birthday",
-          content: "01.07.1990",
-        },
-        {
-          id: 2,
-          name: "Age",
-          content: "32",
-        },
-        {
-          id: 3,
           name: "Address",
-          content: "Melbourne Australia",
+          content:(<>
+          <h6>
+            L2 191 193, Liverpool Street,<br /> Hobart TAS 7000 Australia
+          </h6>
+          </>) 
         },
-        {
-          id: 4,
-          name: "Email",
-          content: (
-            <>
-              <a href="mailto:tokyo@gmail.com">rupindersingh@gmail.com</a>
-            </>
-          ),
-        },
-        {
-          id: 5,
-          name: "Phone",
-          content: (
-            <>
-              <a href="tel:+77 022 177 05 05">+77 022 177 05 05</a>
-            </>
-          ),
-        },
+        
       ],
     },
     {
-      id: 2,
+      id: 1,
       colClass: "right",
       info: [
         {
           id: 1,
-          name: "Nationality",
-          content: "Australia",
+          name: "Email",
+          content: (
+            <>
+              <a href="mailto:info@wolfstreetaccountant.com"><h6>info@wolfstreetaccountant.com</h6> <br /></a>
+            </>
+          ),
         },
         {
           id: 2,
-          name: "Study",
-          content: "University of Texas",
-        },
-        {
-          id: 3,
-          name: "Degree",
-          content: "Master",
-        },
-        {
-          id: 4,
-          name: "Interest",
-          content: "Playing Football",
-        },
-        {
-          id: 5,
-          name: "Freelance",
-          content: "Available",
+          name: "Phone",
+          content: (
+            <>
+              <h6> (03) 70346278 <br /> +61 406846120 </h6>
+            </>
+          ),
         },
       ],
     },
