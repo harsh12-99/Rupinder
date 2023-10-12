@@ -49,7 +49,7 @@ const index = () => {
       <div className="tokyo_tm_facts">
         <div className="container">
           <div className="tokyo_section_title">
-            <h3>Client Serve</h3>
+            <h3>Client Served</h3>
           </div>
           <div className="list">
             <ul>
