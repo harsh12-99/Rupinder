@@ -17,14 +17,14 @@ const ThemeSwitch = () => {
 
   return (
     <>
-      <label
+      {/* <label
         className="theme-switcher-label"
         onClick={() => {
           setTheme(resolvedTheme === "dark" ? "light" : "dark");
         }}
       >
         {resolvedTheme === "dark" ? <FaSun /> : <FaMoon />}
-      </label>
+      </label> */}
     </>
   );
 };
