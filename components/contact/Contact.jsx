@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import PersonalInfo from "../about/PersonalInfo";
+import Seo from "../Seo";
 import Map from "../Map";
 
 const Contact = () => {
@@ -46,6 +47,7 @@ const Contact = () => {
 
   return (
     <>
+    <Seo pageTitle={"Contact"} />
       <div className="container">
         <div className="tokyo_tm_contact">
           <div className="tokyo_tm_title">

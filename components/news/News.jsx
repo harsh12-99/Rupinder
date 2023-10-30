@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Modal from "react-modal";
 import newsData from "../../data/newsData";
 import Social from "../Social";
+import Seo from "../Seo";
 
 Modal.setAppElement("#__next");
 
@@ -21,6 +22,7 @@ const News = () => {
 
   return (
     <>
+    <Seo pageTitle={"Why Choose us"} />
       <ul>
         {newsData.map((item) => (
           <li key={item.id}>

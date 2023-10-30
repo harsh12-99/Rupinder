@@ -2,6 +2,7 @@ import React from "react";
 import Modal from "react-modal";
 import Testimonial from "./Testimonial";
 import Intro from "./Intro";
+import Seo from "../Seo";
 import KnowledgeInterest from "./KnowledgeInterest";
 import PersonalInfo from "./PersonalInfo";
 // import Resume from "./Resume";
@@ -13,6 +14,7 @@ Modal.setAppElement("#__next");
 const AboutMain = () => {
   return (
     <>
+      <Seo pageTitle={"About"} />
       <div className="container">
         <div className="tokyo_tm_about">
           <div className="tokyo_tm_title">

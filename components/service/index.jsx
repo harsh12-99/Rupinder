@@ -4,10 +4,12 @@ import Partners from "./Partners";
 import Pricing from "./Pricing";
 import Services from "./Services";
 import Certificate from "./Certificate";
+import Seo from "../Seo";
 
 const index = () => {
   return (
     <>
+    <Seo pageTitle={"Contact"} />
       {/* SERVICE */}
 
       <div className="container">
