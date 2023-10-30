@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import Social from "../Social";
+import Seo from "../Seo";
 
 const Home = () => {
   const profiles = [
@@ -42,6 +43,7 @@ const Home = () => {
 
   return (
     <>
+    <Seo pageTitle={"Home"} />
     <div className="home-parent">
       <div>
         <img
