@@ -14,8 +14,8 @@ const NotFound = () => {
             <div className="logo">
               <Link className="navbar-brand" href="/">
                 <Image
-                  width={126}
-                  height={22}
+                  width={80}
+                  height={80}
                   src="/img/logo/dark.png"
                   alt="brand"
                 />
@@ -23,16 +23,16 @@ const NotFound = () => {
             </div>
             {/* END LOGO */}
             <div className="copyright">
-              <p>
-                &copy; 2021 Tokyo <br /> Created by
+              {/* <p>
+                &copy; <br /> Created by
                 <a
                   href="https://themeforest.net/user/ib-themes"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Ib-Themes
+                  
                 </a>
-              </p>
+              </p> */}
             </div>
             {/* END COPYRIGHT */}
           </div>
@@ -59,21 +59,21 @@ const NotFound = () => {
         </div>
         {/* END RIGHT PART */}
 
-        <footer className="footer-wrapper">
+        {/* <footer className="footer-wrapper">
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo Created by
+              &copy; 
               <a
                 href="https://themeforest.net/user/ib-themes"
                 target="_blank"
                 rel="noreferrer"
               >
-                Ib-Themes
+                
               </a>
             </p>
           </div>
-          {/* END COPYRIGHT */}
-        </footer>
+          END COPYRIGHT
+        </footer> */}
       </div>
     </>
   );
