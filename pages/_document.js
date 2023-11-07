@@ -14,9 +14,9 @@ export default function Document() {
         />
         <meta name="description" content="We offer comprehensive financial planning, investment management, tax consulting, and more. Let us help you secure your financial future today" />
         <meta name="keywords" content="Taxation Services, Company Trust and SMSF Setup, Payroll Services, Bookkeeping Services, Accounting Services, Financial Reporting, Budgeting" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta name="robots" content="noindex, follow" />
+        {/* <meta name="robots" content="noindex, follow" /> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>

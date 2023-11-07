@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Aos from "aos";
 import { ToastContainer } from "react-toastify";
 import { useEffect } from "react";
@@ -19,7 +20,11 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
 
   return (
-    <div className="tokyo_tm_all_wrap">
+    <>
+      <Head>
+        <meta name="viewport" content="viewport-fit=cover" />
+      </Head>
+      <div className="tokyo_tm_all_wrap">
       <ThemeProvider attribute="class">
         {router.asPath !== "/" ? <ThemeSwitch /> : ""}
         {/* End themeSwicher */}
@@ -30,5 +35,6 @@ export default function App({ Component, pageProps }) {
       <ToastContainer />
       {/* End toast container for email send notification */}
     </div>
+    </>
   );
 }
