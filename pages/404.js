@@ -13,9 +13,9 @@ const NotFound = () => {
           <div className="leftpart_inner">
             <div className="logo">
               <Link className="navbar-brand" href="/">
-                <Image
-                  width={126}
-                  height={22}
+                <img
+                  width={80}
+                  height={80}
                   src="/img/logo/dark.png"
                   alt="brand"
                 />
@@ -24,14 +24,14 @@ const NotFound = () => {
             {/* END LOGO */}
             <div className="copyright">
               <p>
-                &copy; 2021 Tokyo <br /> Created by
-                <a
+                &copy; Wolfstreet Accountant <br />
+                {/* <a
                   href="https://themeforest.net/user/ib-themes"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Ib-Themes
-                </a>
+                </a> */}
               </p>
             </div>
             {/* END COPYRIGHT */}
@@ -62,7 +62,7 @@ const NotFound = () => {
         <footer className="footer-wrapper">
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo Created by
+              &copy; 2023
               <a
                 href="https://themeforest.net/user/ib-themes"
                 target="_blank"

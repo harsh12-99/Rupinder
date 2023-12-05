@@ -1,4 +1,4 @@
-const { default: Image } = require("next/image");
+// const { default: Image } = require("next/image");
 
 module.exports = [
   {
