@@ -48,7 +48,7 @@ const Sidebar = () => {
       <div className={click ? "leftpart active" : "leftpart"}>
         <div className="leftpart_inner">
           <div className="logo">
-            <Link className="navbar-brand" href="/home">
+            <Link className="navbar-brand" href="/">
               <img
                 width={80}
                 height={80}
