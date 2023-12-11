@@ -51,7 +51,7 @@ const Home = () => {
           height={30}
           className="home-carousel-left image-filter"
           src="/img/svg/rightarrow.svg"
-          alt="homerun"
+          alt="WolfStreetAccountant"
           onClick={goToPreviousProfile}
         />
       </div>
@@ -84,7 +84,7 @@ const Home = () => {
           height={30}
           className="image-filter"
           src="/img/svg/rightarrow.svg"
-          alt="homerun"
+          alt="WolfStreetAccountant"
           onClick={goToNextProfile}
         />
       </div>  

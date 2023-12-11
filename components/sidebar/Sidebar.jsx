@@ -76,7 +76,7 @@ const Sidebar = () => {
                       height={15}
                       className="svg"
                       src={item.icon}
-                      alt="homerun"
+                      alt="WolfStreetAccountant"
                     />
                     <span className="menu_content">{item.menuName}</span>
                   </Link>
