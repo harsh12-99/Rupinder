@@ -43,7 +43,7 @@ const Home = () => {
 
   return (
     <>
-    <Seo pageTitle={"Home"} />
+    <Seo pageTitle={"Home | Wolf Street Accountant"} />
     <div className="home-parent">
       <div>
         <img
@@ -51,7 +51,7 @@ const Home = () => {
           height={30}
           className="home-carousel-left image-filter"
           src="/img/svg/rightarrow.svg"
-          alt="WolfStreetAccountant"
+          alt="Wolf Street Accountant"
           onClick={goToPreviousProfile}
         />
       </div>
@@ -84,7 +84,7 @@ const Home = () => {
           height={30}
           className="image-filter"
           src="/img/svg/rightarrow.svg"
-          alt="WolfStreetAccountant"
+          alt="Wolf Street Accountant"
           onClick={goToNextProfile}
         />
       </div>  
