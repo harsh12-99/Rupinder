@@ -27,6 +27,8 @@ const index = () => {
           <div className="list">
             <ul>
               <Services />
+
+              <h3 style={{paddingLeft:'40px', marginTop:'50px'}}> Liability limited by a scheme approved under Professional Standards Legislation. </h3>
             </ul>
           </div>
           {/* End list */}
