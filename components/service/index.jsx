@@ -28,7 +28,7 @@ const index = () => {
             <ul>
               <Services />
             </ul>
-            <p style={{paddingLeft:'40px'}}> * Liability limited by a scheme approved under Professional Standards Legislation. </p>
+            <p> * Liability limited by a scheme approved under Professional Standards Legislation. </p>
           </div>
           {/* End list */}
         </div>
