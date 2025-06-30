@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import Social from "../Social";
 import Seo from "../Seo";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   const profiles = [
@@ -89,6 +90,7 @@ const Home = () => {
         />
       </div>  
     </div>
+    <Footer/>
     </>
   );
 };

@@ -57,6 +57,9 @@ const Sidebar = () => {
               />
             </Link>
           </div>
+          <div>
+            <h3 className="logo-text" style={{ fontSize: "18px", padding: "10px" }}>Wolf Street Accountant</h3>
+          </div>
           {/* END LOGO */}
 
           <div className="menu">
