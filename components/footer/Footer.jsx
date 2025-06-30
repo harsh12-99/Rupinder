@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="copyright">
       <p>
         &copy; {new Date().getFullYear()} Sandha Accounting Services Pty Ltd. All rights reserved.  &nbsp; &nbsp;
-  <a href="/PrivacyPolicy/privacy-policy.pdf" download class="btn btn-primary">
+  <a href="/PrivacyPolicy/Privacy-Policy.pdf" download class="btn btn-primary">
   Privacy Policy
 </a>
       </p>
