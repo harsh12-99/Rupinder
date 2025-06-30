@@ -2,10 +2,16 @@ const Footer = () => {
   return (
     <div className="copyright">
       <p>
-        &copy; {new Date().getFullYear()} Sandha Accounting Services Pty Ltd. All rights reserved.  &nbsp; &nbsp;
-  <a href="/PrivacyPolicy/Privacy-Policy.pdf" download class="btn btn-primary">
-  Privacy Policy
-</a>
+        &copy; {new Date().getFullYear()} Sandha Accounting Services Pty Ltd.
+        All rights reserved. &nbsp; &nbsp;
+        <a
+          href="https://www.wolfstreetaccountant.com/PrivacyPolicy/Privacy-Policy.pdf"
+          class="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Privacy Policy
+        </a>
       </p>
 
       <style jsx>{`
